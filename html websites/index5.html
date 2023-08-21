@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My First Website</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="small test website" />
+        <meta name="keywords" content="HTML, CSS, JavaScript" />
+        <meta name="author" content="Jonie Stansel" />
+        <meta http-equiv="" content="0; url=http://127.0.0.1:5500/index.html" />
+
+        <link rel="icon" href="images/nerd.png" type="image/x-icon" />
+        <link rel="stylesheet" type="text/css" href="Style.css" />
+
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+         <script>
+            $(function() {
+               $("#includeHtml").load("nav.html");
+            });
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Class Table</h1>
+            <p>Here is the table i made for class.</p>
+        </div>
+        <div id="includeHtml" class="navbar"></div>
+        <table align="center">
+            <tr>
+                <td colspan="2">Dis a table</td>
+            </tr>
+            <tr>
+                <td font="serif">Before</td>
+                <td>After</td>
+            </tr>
+
+            <tr>
+                <td><IMG align="center" SRC="images/nerd2.jpg"
+                    width="100%"
+                        height="100%"></td>
+                <td><IMG align="center" SRC="images/nerd3.jpg"
+                    width="100%"
+                        height="100%"></td>
+            </tr>
+
+            <tr>
+                <td>C1</td>
+                <td>C2</td>
+            </tr>
+
+            <tr>
+                <td>C1</td>
+                <td>C2</td>
+            </tr>
+
+            <tr>
+                <td>C1</td>
+                <td>C2</td>
+            </tr>
+
+            <tr>
+                <td>C1</td>
+                <td>C2</td>
+            </tr>
+        </table>
+    </body>
+</html>

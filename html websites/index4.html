@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My First Website</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="small test website" />
+        <meta name="keywords" content="HTML, CSS, JavaScript" />
+        <meta name="author" content="Jonie Stansel" />
+        <meta http-equiv="" content="0; url=http://127.0.0.1:5500/index.html" />
+
+        <link rel="icon" href="images/nerd.png" type="image/x-icon" />
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+         <script>
+            $(function() {
+               $("#includeHtml").load("nav.html");
+            });
+        </script>
+
+
+<script
+src="https://code.jquery.com/jquery-3.2.1.min.js"
+integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+crossorigin="anonymous"></script>
+        
+    </head>
+    <body>    
+        <div class="header">
+           
+            <h1>This is some header</h1>
+            <p>This is a little tiny website i made for fun.</p>
+        </div>
+        <div id="includeHtml" class="navbar"></div> 
+    
+        <body>   
+            <div class="flex-container">
+                <div class="game-board">
+                    <br>
+                        <table id="board"></table>
+                </div>
+            </div>
+                <section id="footer">
+                    <div id="start"><img src="images/start.png"></div>
+                    <div id="size-btns">
+                        <div id="size-btns"><button id="size-9"><img src="images/easy.png"> Easy</button></div> 
+                        <div id="size-btns"><button id="size-16"><img src="images/medium.png"> Medium</button></div> 
+                        <div id="size-btns"><button id="size-30"><img src="images/hard.png"> Hard</button></div>
+                    </div>
+                    <div id="clock"><em>"Shift + Click"</em></strong> to toggle <img src="images/flag.png"></div>
+                </section>
+            <script src="js/cell.js"></script>
+            <script src="js/main.js"></script>
+        </body>
+    
+    </body>
+</html>
